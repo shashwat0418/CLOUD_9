@@ -3,12 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SIGNIN Page</title>
+    <title>SIGNIN PAGE</title>
     <style>
-      
+      *
+      {
+        border-radius: 50px;
+      }
 form {
   border: 3px solid #f1f1f1;
   background-color: aliceblue;
+}
+btn:hover
+{
+  background-color: burlywood;
 }
 input[type=text], input[type=password] {
   width: 100%;
@@ -109,27 +116,21 @@ span.psw {
     </div>
   
     <div class="container">
-      <label class="Username"" for="uname"><b>USERNAME</b></label>
+      <label class="Username"" for="uname"><b>Username</b></label>
       <input type="text" placeholder="Enter Username" name="uname" required>
   
-      <label class="pass" for="psw"><b>ENTER YOUR EMAIL</b></label>
-      <input type="password" placeholder="EMAIL" name="psw" required>
-      <label class="Username"" for="uname"><b>PASSWORD</b></label>
-      <input type="text" placeholder="Password" name="uname" required>
-  
-      <label class="pass" for="psw"><b>CONFIRM YOUR PASSWORD</b></label>
+      <label class="pass" for="psw"><b>Password</b></label>
       <input type="password" placeholder="Enter Password" name="psw" required>
 
-      <button ="submit">CREATE</button>
+      <button type="submit"  class="btn">Login</button>
       <label>
         <input type="checkbox" checked="checked" name="remember"> Remember me
       </label>
     </div>
-    
-    <div class="container">
   
     <div class="container" style="background-color:#f1f1f1">
-      <em>already have a  account ? <a href="details.html">Login</a></em>
+      <em>dont have a account ? <a href="shahswat.html">SIGN UP</a></em>
+      <span class="psw">Forgot <a href="#">password?</a></span>
     </div>
   </form>
 </body>
