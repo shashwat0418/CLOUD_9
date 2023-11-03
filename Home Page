@@ -440,8 +440,21 @@ body {
   text-decoration: none;
   color: #a1a1a1;
 }
-
-    </style>
+.introD
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  
+  //background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+</style>
 </head>
 <body>
     <header class="header">
@@ -456,11 +469,11 @@ body {
       </header>
       <main>
         <div >
-            <img class="intro" src="turkeykimaka.png" alt="">
+            <img class="intro" src="mental_health 1 copy.png" alt="">
         </div>
         <div>
-            <em><h3 class="Concerns">Common Health Concerns</h3></em>
-            <em><h3 class="Concerns" >Consult a Doctor for your Health</h3></em>
+            <em><h2>Common Health Concerns</h2></em>
+            <em><h2>Consult a Doctor for your Health</h2></em>
         </div>
         <div>
             <div class="symtoms">
@@ -468,19 +481,19 @@ body {
                   <p class="work-heading">Depression?
                 </p>
                   <p class="work-text"></p>
-                  <img class="privacy" src="turkeykimaka.png" alt="">
+                  <img class="privacy" src="booydipp.jpeg" alt="">
                   <em><a class="vh1" href="#">Viwe more>></a></em>
                 </div>
                 <div class="work">
                   <p class="work-heading">Anxiety?</p>
                   <p class="work-text"></p>
-                  <img class="Anxiety" src="turkeykimaka.png" alt="">
+                  <img class="Anxiety" src="girldispersion.jpeg" alt="">
                   <em><a class="vh1" href="#">Viwe more>></a></em>
                 </div>
                 <div class="work">
                   <p class="work-heading">Social-Anxiety?</p>
                   <p class="work-text"></p>
-                  <img class="Social-Anxiety" src="turkeykimaka.png" alt="">
+                  <img class="Social-Anxiety" src="social-anxity.png" alt="">
                   <em><a class="vh1" href="#">Viwe more></a></em>
                 </div>
                 
@@ -497,19 +510,19 @@ body {
                   <p class="work-heading">Dr. Hakhim
                 </p>
                   <p class="work-text"></p>
-                  <img class="privacy" src="Group 1321316704 (1).png" alt="">
+                  <img class="privacy" src="DOC1.png" alt="">
                   <em><a class="vh1" href="#">Consult now>></a></em>
                 </div>
                 <div class="work">
                   <p class="work-heading">Dr.Smarath</p>
                   <p class="work-text"></p>
-                  <img class="Anxiety" src="turkeykimaka.png" alt="">
+                  <img class="Anxiety" src="DOC2.jpeg" alt="">
                   <em><a class="vh1" href="#">Consult now>></a></em>
                 </div>
                 <div class="work">
                   <p class="work-heading">Dr.Vasundhara</p>
                   <p class="work-text"></p>
-                  <img class="Social-Anxiety" src="turkeykimaka.png" alt="">
+                  <img class="Social-Anxiety" src="DOC3.jpeg" alt="">
                   <em><a class="vh1" href="#">Consult now>></a></em>
                 </div>
                 
@@ -567,6 +580,9 @@ body {
     <div class="Learnmore">
         <button type="submit"  class="btn">Learnmore...</button>
     </div>
+    <div >
+      <img class="introD" src="BRAIN BUTTERFLY GIRL.png" alt="">
+  </div>
     <div class="faqs">
         <h2 class="ht">FAQS</h2>
     </div>
