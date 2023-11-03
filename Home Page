@@ -172,7 +172,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #302f49;
+  background-color: paleturquoise;
   padding: 40px 80px;
 }
 
@@ -435,6 +435,12 @@ body {
   color: #000;
   text-decoration: dashed;
 }
+.vh1
+{
+  text-decoration: none;
+  color: #a1a1a1;
+}
+
     </style>
 </head>
 <body>
@@ -463,19 +469,19 @@ body {
                 </p>
                   <p class="work-text"></p>
                   <img class="privacy" src="turkeykimaka.png" alt="">
-                  <em><a href="#">Viwe more>></a></em>
+                  <em><a class="vh1" href="#">Viwe more>></a></em>
                 </div>
                 <div class="work">
                   <p class="work-heading">Anxiety?</p>
                   <p class="work-text"></p>
                   <img class="Anxiety" src="turkeykimaka.png" alt="">
-                  <em><a href="#">Viwe more>></a></em>
+                  <em><a class="vh1" href="#">Viwe more>></a></em>
                 </div>
                 <div class="work">
                   <p class="work-heading">Social-Anxiety?</p>
                   <p class="work-text"></p>
                   <img class="Social-Anxiety" src="turkeykimaka.png" alt="">
-                  <em><a href="#">Viwe more></a></em>
+                  <em><a class="vh1" href="#">Viwe more></a></em>
                 </div>
                 
         </div>
@@ -492,19 +498,19 @@ body {
                 </p>
                   <p class="work-text"></p>
                   <img class="privacy" src="Group 1321316704 (1).png" alt="">
-                  <em><a href="#">Consult now>></a></em>
+                  <em><a class="vh1" href="#">Consult now>></a></em>
                 </div>
                 <div class="work">
                   <p class="work-heading">Dr.Smarath</p>
                   <p class="work-text"></p>
                   <img class="Anxiety" src="turkeykimaka.png" alt="">
-                  <em><a href="#">Consult now>></a></em>
+                  <em><a class="vh1" href="#">Consult now>></a></em>
                 </div>
                 <div class="work">
                   <p class="work-heading">Dr.Vasundhara</p>
                   <p class="work-text"></p>
                   <img class="Social-Anxiety" src="turkeykimaka.png" alt="">
-                  <em><a href="#">Consult now>></a></em>
+                  <em><a class="vh1" href="#">Consult now>></a></em>
                 </div>
                 
         </div>
@@ -618,7 +624,6 @@ body {
           </div>
         </div>
       </footer>
-
       
 </body>
 </html>
