@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LOGIN PAGE</title>
+    <link rel="shortcut icon" href="GOVERMENT.jpeg" type="image/x-icon">
     <style>
       *
       {
@@ -29,7 +30,7 @@ input[type=text], input[type=password] {
 
 button {
   background-color: brown;
-  color: white;
+  color: burlywood;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
@@ -64,7 +65,7 @@ button:hover {
 
 }
 
-/
+
 img.avatar {
   width: 40%;
   border-radius: 50%;
@@ -72,24 +73,12 @@ img.avatar {
 
 
 .container {
+  margin-bottom: 15px;
   padding: 16px;
 }
-
-
-span.psw {
-  float: right;
-  padding-top: 16px;
-}
-
-
-@media screen and (max-width: 300px) {
-  span.psw {
-    display: block;
-    float: none;
-  }
-  .cancelbtn {
-    width: 100%;
-  }
+.ops
+{
+margin-left: 40px;
 }
 .Username
 {
@@ -107,12 +96,38 @@ span.psw {
             flex-direction: column;
             bottom: 50%;
 }
+.l1
+{
+  text-decoration: none;
+  color: #a1a1a1;
+}
+.container2
+{
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  padding: 16px;
+
+}
+.ops2
+{
+  margin-left: 40px;
+  
+}
+.ops2 a
+{
+  text-decoration: none;
+  color: #a1a1a1;
+}
+
+
     </style>
 </head>
 <body class="main">
-<<form action="action_page.php" method="post">
+<form action="action_page.php" method="post">
     <div class="imgcontainer">
-      <img class="photo" src="turkeykimaka.png" alt="Avatar" class="avatar">
+      <img class="photo" src="GOVERMENT.jpeg" alt="Avatar" class="avatar">
     </div>
   
     <div class="container">
@@ -128,9 +143,10 @@ span.psw {
       </label>
     </div>
   
-    <div class="container" style="background-color:#f1f1f1">
-      <em>dont have a account ? <a href="shahswat.html">SIGN UP</a></em>
-      <span class="psw">Forgot <a href="#">password?</a></span>
+    <div class="container2" style="background-color:#f1f1f1">
+      <em>dont have a account ? <a class="l1" href="shahswat.html">SIGN UP</a></em>
+      <div class="ops"><span class="psw"><em>Forgot</em> <a class="l1" href="#"><em>password?</em></a></span></div>
+      <div class="ops2" ><a  href="HOME PAGE .HTML"><em >Home</em></a></div>
     </div>
   </form>
 </body>
