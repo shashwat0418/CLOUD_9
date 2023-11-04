@@ -145,7 +145,7 @@ margin-left: 40px;
   
     <div class="container2" style="background-color:#f1f1f1">
       <em>dont have a account ? <a class="l1" href="shahswat.html">SIGN UP</a></em>
-      <div class="ops"><span class="psw"><em>Forgot</em> <a class="l1" href="#"><em>password?</em></a></span></div>
+      <div class="ops"><span class="psw"><em>Forgot</em> <a class="l1" href="forgotpassword.html"><em>password?</em></a></span></div>
       <div class="ops2" ><a  href="HOME PAGE .HTML"><em >Home</em></a></div>
     </div>
   </form>
