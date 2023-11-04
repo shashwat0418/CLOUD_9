@@ -4,18 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="shortcut icon" href="turkeykimaka.png" type="image/x-icon">
+    <link rel="shortcut icon" href="GOVERMENT.jpeg" type="image/x-icon">
     <style>
 body {
   margin: 0;
   box-sizing: border-box;
 }
-.header 
-{
+.copyh{
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #f5f5f5;
+  width: 100%;
+  height: 100px;
+}
+.header 
+{
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5;
+  width: 100%;
+  
+  
 }
 
 .header .logo {
@@ -41,29 +53,16 @@ body {
 }
 .intro 
 {
-  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 200px;
-  
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);
+  height: 500px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-.intro image 
-{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 200px;
-  
- 
-}
+
 .intro p 
 {
   font-size: 20px;
@@ -449,25 +448,33 @@ body {
   width: 100%;
   height: 200px;
   
-  //background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);
+  /*background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);*/
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+.goverment
+{
+   border-radius: 30px;
+   width:120px;
 }
 </style>
 </head>
 <body>
     <header class="header">
-        <a href="#" class="logo">MENTOSER'S</a>
+      <img class="goverment" src="GOVERMENT.jpeg" alt="">
+        <a href="#" class="logo">BLUE WING'S</a>
         <nav class="nav-items">
-          <a href="#">BLOG</a>
+          <a href="blog.html">BLOG</a>
           <a href="#">ABOUT</a>
           <a href="#">CONTACT</a>
           <a href="shahswat.html">SINGIN</a>
           <a href="details.html">LOGIN</a>
         </nav>
       </header>
-      <main>
+      <div class="copyh">
+
+      </div>
         <div >
             <img class="intro" src="mental_health 1 copy.png" alt="">
         </div>
