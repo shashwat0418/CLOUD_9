@@ -9,10 +9,20 @@
       *{
         border-radius: 50px;
       }
+      .form2
+      {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+      }
 form 
 {
   border: 3px solid #f1f1f1;
   background-color: aliceblue;
+  width: 70%;
+  background-image: url(BRAIN\ BUTTERFLY\ GIRL.png); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
 }
 input[type=text], input[type=password] {
   width: 100%;
@@ -21,6 +31,7 @@ input[type=text], input[type=password] {
   display: inline-block;
   border: 1px solid #ccc;
   box-sizing: border-box;
+  opacity: 0.5;
 }
 
 
@@ -70,6 +81,7 @@ img.avatar {
 
 .container {
   padding: 16px;
+  opacity: 0.5;
 }
 
 
@@ -114,7 +126,7 @@ span.psw {
 }
     </style>
 </head>
-<body class="main">
+<body class="form2">
 <form action="action_page.php" method="post">
     <div class="imgcontainer">
       <img class="photo" src="GOVERMENT.jpeg" alt="Avatar" class="avatar">
