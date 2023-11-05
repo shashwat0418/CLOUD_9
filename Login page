@@ -10,9 +10,21 @@
       {
         border-radius: 50px;
       }
+      .form2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+      }
 form {
+  margin-top: 20px;
   border: 3px solid #f1f1f1;
   background-color: aliceblue;
+  width: 50%;
+  background-image: url(BRAIN\ BUTTERFLY\ GIRL.png); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+
 }
 btn:hover
 {
@@ -25,6 +37,7 @@ input[type=text], input[type=password] {
   display: inline-block;
   border: 1px solid #ccc;
   box-sizing: border-box;
+  opacity: 0.5;
 }
 
 
@@ -36,6 +49,7 @@ button {
   border: none;
   cursor: pointer;
   width: 100%;
+  opacity: 0.5;
 }
 
 
@@ -108,7 +122,7 @@ margin-left: 40px;
   margin-right: 10px;
   margin-bottom: 15px;
   padding: 16px;
-
+ opacity: 0.5;
 }
 .ops2
 {
@@ -124,7 +138,7 @@ margin-left: 40px;
 
     </style>
 </head>
-<body class="main">
+<body class="form2">
 <form action="action_page.php" method="post">
     <div class="imgcontainer">
       <img class="photo" src="GOVERMENT.jpeg" alt="Avatar" class="avatar">
